@@ -1,5 +1,9 @@
 # nametweaker
 Tweak the name and other user settings on Leapfrog MyOwnLeaptop devices
+
+Usage: `python3 nametweaker <new_name> <new_name.wav>`
+* `<new_name>` - New name of device, limited to 8 characters
+* `<new_name.wav>` - Audio file of recorded name in [WAV](https://en.wikipedia.org/wiki/WAV) format
 ## Debian-based Linux Distros
 ```
 sudo apt update
